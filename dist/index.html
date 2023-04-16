@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>massms</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="font-Poppins">
+    <div class="min-h-screen bg-[url('/massms/main-background.svg')] bg-no-repeat bg-center bg-cover">
+
+        <nav class="md:h-12 px-10 h-0 md:px-36 md:flex items-center md:text-gray-50 text-slate-500 py-8 transition-all ease-in duration-50">
+
+            <div class="flex justify-between items-center">
+                <img class="h-10"  src="/massms/masmss.svg">
+
+                <div class="text-4xl cursor-pointer mx-2 md:hidden block text-white">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </div>
+            </div>
+
+            <ul class="flex-1 md:text-center md:space-x-11  md:text-xs my-7 opacity-0 md:opacity-100 top-[-400px] transition-all ease-in duration-500 bg-white md:bg-transparent z-50">
+                <li class="md:inline-block flex text-center justify-center my-2"><a href="#">Home</a></li>
+                <li class="md:inline-block flex text-center justify-center my-2"><a href="#">Solutions</a></li>
+                <li class="md:inline-block flex text-center justify-center my-2"><a href="#">Pricing</a></li>
+                <li class="md:inline-block flex text-center justify-center my-2"><a href="#">API Guide</a></li>
+                <li class="md:inline-block flex text-center justify-center my-2"><a href="#">Blog</a></li>
+            </ul>
+
+            <div class="md:space-x-2 md:text-xs flex items-center justify-center opacity-0 md:opacity-100 top-[-400px] transition-all ease-in duration-500">
+                <button class="border-white border-2 py-2 px-9 rounded-3xl"><a href="#">Log in</a></button>
+                <button class="border-amber-300 bg-amber-300 font-bold text-blue-950 border-2 py-2 px-8 rounded-3xl"><a href="#">Try now</a></button>
+            </div>
+
+        </nav>
+
+        <div class="px-10 md:px-36 inline-flex md:absolute pt-40">
+            <div class="text-center">
+                <h1 class="flex justify-center md:flex-none md:text-start md:justify-start font-black text-7xl text-white w-96 mb-1">Unlimited Bulk SMS</h1>
+    
+                <p class="flex justify-center md:flex-none md:text-start md:justify-start text-blue-200 text-base mb-10">Massms is a fully-featured SMS & mobile marketing <br> platform that doesn't stop you from scaling.</p>
+    
+                <button class="md:items-start border-2 border-amber-300 bg-amber-300 rounded-full text-base font-semibold py-3 px-20 mb-6"><a href="#">Try it out for free<img class="inline-flex w-6 ml-4" src="/massms/arrow-right.svg"></a></button>
+
+                <div class="flex justify-center md:flex-none md:text-start md:justify-start text-white text-sm space-x-7">
+                    <div class="inline-block">
+                        <p class="inline-flex"><img class="w-6 mr-2" src="/massms/yellow-check.svg">2-minute setup</p>
+                    </div>
+                    <div class="inline-block">
+                        <p class="inline-flex"><img class="w-6 mr-2" src="/massms/yellow-check.svg">No credit card required</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:ml-48 md:pl-48 md:mt-32">
+            <img src="/massms/main-model.svg">
+        </div>
+    </div>
+
+    <div class="px-10 md:px-36 min-h-screen bg-white bg-center bg-cover">
+
+        <div class="pt-28 text-center mb-16">
+
+            <h1 class="font-extrabold text-3xl text-violet-950 mb-5">Setup <span class="text-sky-500">Smart & Bulk SMS</span> <br>For Your Brand In Minutes</h1>
+            
+            <p class="font-medium text-base text-gray-300">Setup automated text messaging throughout your business operations in just a few minutes, and scale without worrying about upgrades and extra costs!</p>
+        </div>
+
+        <div class="md:grid grid-cols-3 text-sm md:px-0 px-10">
+
+            <div class="mb-28">
+                <img class="absolute inline-flex z-50 left-72 md:left-80 w-56" src="/massms/install-app.svg">
+
+                <h2 class="font-bold text-violet-950 mb-4 ml-7">
+                    <span class="text-sky-500">#1:</span> Install App
+                </h2>
+
+                <div class="flex flex-row grid-col-2">
+
+                    <div class="bg-white drop-shadow-2xl rounded-xl p-6 text-slate-500">
+                        <p class="pr-32">Scan a QR code and instantly install the mobile app on your android device.</p>
+                    </div>
+                    
+                    <div class="md:block hidden pt-12 mt-3">
+                        <img class="h-5 w-14 opacity-20" src="/massms/right.png" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-28">
+
+                <img class="absolute z-50 md:w-72 ml-14 md:ml-20 mt-4 md:mt-7" src="/massms/import-contact.svg">
+
+                <h2 class="font-bold text-violet-950 mb-4 ml-7">
+                    <span class="text-sky-500">#2:</span> Import Contacts
+                </h2>
+
+                <div class="flex flex-row grid-col-2">
+
+                    <div class="bg-white drop-shadow-2xl rounded-xl p-6 pb-12 text-slate-500">
+                        <p class="pr-16">Upload any csv file with your
+                            <p class="pr-44">contacts and you're all set!</p>
+                        </p>
+                    </div>
+                    
+                    <div class="md:block hidden pt-12 mt-3">
+                        <img class="h-5 w-8 opacity-20" src="/massms/right.png" >
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <img class="absolute ml-50 inline-flex z-50 ml-40" src="/massms/schedule-sms.svg">
+
+                <h2 class="font-bold text-violet-950 mb-4 ml-7">
+                    <span class="text-sky-500">#3:</span> Schedule SMS
+                </h2>
+
+                <div class="flex flex-row grid-col-2">
+
+                    <div class="bg-white drop-shadow-2xl rounded-xl p-6 text-slate-500">
+                        <p class="pr-32">Formulate your message, choose a contacts<br>group, and schedule<br>your campaign.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:grid grid-cols-2 mt-32 flex flex-col-reverse">
+
+            <div>
+                <img src="/massms/model-2.svg">
+            </div>
+
+            <div class="text-center md:text-start">
+                <h1 class="text-violet-950 font-extrabold md:text-3xl text-2xl mb-5">Let Your Mobile Carrier Do All The Heavy Lifting, <span class="text-sky-500"><br>While We Take Care Of The Rest.</span></h1>
+
+                <p class="text-base text-gray-400 mb-7">You're already paying for an unlimited data plan,<br>but with Massms, you'll actually be using it.</p>
+
+                <button class="border-amber-300 bg-amber-300 font-semibold text-blue-950 border-2 py-3 px-8 rounded-full mb-6">Start free <img class="inline-flex w-6 ml-1" src="/massms/arrow-right.svg"></button>
+
+                <div class="text-start ml-28 md:ml-0 space-y-2">
+                    <p class="text-sm text-slate-400"><img class="inline-flex w-5 mr-2" src="/massms/like.svg">No credit card required</p>
+                    <p class="text-sm text-slate-400"><img class="inline-flex w-5 mr-2" src="/massms/like.svg">Live chat support</p>
+                    <p class="text-sm text-slate-400"><img class="inline-flex w-5 mr-2" src="/massms/like.svg">Quick setup</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-10 md:px-36 min-h-screen bg-white bg-center bg-cover">
+
+        <div class="flex justify-center items-center">
+            <img class="mb-4 w-32 pt-40 justify-center items-center" src="/massms/robust-robot-icon.svg">
+        </div>
+
+        <div class="mb-20">
+            <h1 class="mb-7 justify-center text-center text-3xl font-extrabold text-violet-950">Robust, Comprehensive, <br class="sm:block md:hidden"><span class="text-sky-500">Fully-Documented,</span> API
+            </h1>
+
+            <p class="justify-center text-center text-lg font-medium text-sky-500">Seamlessly connect your CRM, ERPs, marketing platforms,<br class="hidden md:block"> and, mostly popular business management and marketing systems.</p>
+    
+            <p class="justify-center text-center text-lg font-medium text-gray-300">(Our extensive API was designed with simplicity in min, while<br class="block md:hidden"> encompassing<br class="hidden md:block">enough features to<br class="block md:hidden"> allow for usage versatility from<br class="block md:hidden"> a variety of users.)</p>
+        </div>
+
+        <div class="md:grid grid-cols-3 md:text-base text-xl font-medium text-slate-300 text-start ml-7 md:ml-0">
+            <div>
+                <ul>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">OTP authentication</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Cart abandonement funnels</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">eCommerce autoresponders</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="md:pl-14">
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Seasonal promotions</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Two-factor authentication</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Integrate SMS into your apps</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="md:pl-24">
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Sync contacts from your CRM</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">Create complex chat bots</li>
+                    <li class="inline-flex"><img src="/massms/star.svg" class="mr-4 w-5">And more... !</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function Menu(e){
+          let list = document.querySelector('ul');
+          e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+        }
+      </script>
+</body>
+</html>
